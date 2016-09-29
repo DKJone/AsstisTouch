@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var assistiveTouch: AssistiveTouch!
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         self.performSelector(#selector(showDeBugExt), withObject: nil, afterDelay: 3)
-        
         return true
     }
     

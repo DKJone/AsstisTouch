@@ -206,6 +206,11 @@ class AssistiveTouch: UIWindow {
         }
     }
 
+    /**
+     more function
+     
+     - parameter sender: itembtn
+     */
     func itemClick(sender: UIButton) {
         sender.tag == 1 ? self.hidden = true: ()
         print("item\(sender.tag)Click")
