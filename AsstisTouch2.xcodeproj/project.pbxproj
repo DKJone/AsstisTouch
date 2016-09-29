@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041996F31D9B8E5500FD7406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041996F21D9B8E5500FD7406 /* AppDelegate.swift */; };
+		041996F51D9B8E5500FD7406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041996F41D9B8E5500FD7406 /* ViewController.swift */; };
+		041996F81D9B8E5500FD7406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041996F61D9B8E5500FD7406 /* Main.storyboard */; };
+		041996FA1D9B8E5600FD7406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041996F91D9B8E5600FD7406 /* Assets.xcassets */; };
+		041996FD1D9B8E5600FD7406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041996FB1D9B8E5600FD7406 /* LaunchScreen.storyboard */; };
+		041997081D9B8E5600FD7406 /* AsstisTouch2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041997071D9B8E5600FD7406 /* AsstisTouch2Tests.swift */; };
+		041997131D9B8E5600FD7406 /* AsstisTouch2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041997121D9B8E5600FD7406 /* AsstisTouch2UITests.swift */; };
+		04384BE21D9B8F2400D16E56 /* DebugExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04384BE11D9B8F2400D16E56 /* DebugExt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041997041D9B8E5600FD7406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041996E71D9B8E5400FD7406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041996EE1D9B8E5500FD7406;
+			remoteInfo = AsstisTouch2;
+		};
+		0419970F1D9B8E5600FD7406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041996E71D9B8E5400FD7406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041996EE1D9B8E5500FD7406;
+			remoteInfo = AsstisTouch2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041996EF1D9B8E5500FD7406 /* AsstisTouch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsstisTouch2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041996F21D9B8E5500FD7406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041996F41D9B8E5500FD7406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041996F71D9B8E5500FD7406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041996F91D9B8E5600FD7406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041996FC1D9B8E5600FD7406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041996FE1D9B8E5600FD7406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041997031D9B8E5600FD7406 /* AsstisTouch2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsstisTouch2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041997071D9B8E5600FD7406 /* AsstisTouch2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsstisTouch2Tests.swift; sourceTree = "<group>"; };
+		041997091D9B8E5600FD7406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0419970E1D9B8E5600FD7406 /* AsstisTouch2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsstisTouch2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041997121D9B8E5600FD7406 /* AsstisTouch2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsstisTouch2UITests.swift; sourceTree = "<group>"; };
+		041997141D9B8E5600FD7406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04384BE11D9B8F2400D16E56 /* DebugExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugExt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041996EC1D9B8E5500FD7406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041997001D9B8E5600FD7406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419970B1D9B8E5600FD7406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041996E61D9B8E5400FD7406 = {
+			isa = PBXGroup;
+			children = (
+				041996F11D9B8E5500FD7406 /* AsstisTouch2 */,
+				041997061D9B8E5600FD7406 /* AsstisTouch2Tests */,
+				041997111D9B8E5600FD7406 /* AsstisTouch2UITests */,
+				041996F01D9B8E5500FD7406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041996F01D9B8E5500FD7406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041996EF1D9B8E5500FD7406 /* AsstisTouch2.app */,
+				041997031D9B8E5600FD7406 /* AsstisTouch2Tests.xctest */,
+				0419970E1D9B8E5600FD7406 /* AsstisTouch2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041996F11D9B8E5500FD7406 /* AsstisTouch2 */ = {
+			isa = PBXGroup;
+			children = (
+				04384BE11D9B8F2400D16E56 /* DebugExt.swift */,
+				041996F21D9B8E5500FD7406 /* AppDelegate.swift */,
+				041996F41D9B8E5500FD7406 /* ViewController.swift */,
+				041996F61D9B8E5500FD7406 /* Main.storyboard */,
+				041996F91D9B8E5600FD7406 /* Assets.xcassets */,
+				041996FB1D9B8E5600FD7406 /* LaunchScreen.storyboard */,
+				041996FE1D9B8E5600FD7406 /* Info.plist */,
+			);
+			path = AsstisTouch2;
+			sourceTree = "<group>";
+		};
+		041997061D9B8E5600FD7406 /* AsstisTouch2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				041997071D9B8E5600FD7406 /* AsstisTouch2Tests.swift */,
+				041997091D9B8E5600FD7406 /* Info.plist */,
+			);
+			path = AsstisTouch2Tests;
+			sourceTree = "<group>";
+		};
+		041997111D9B8E5600FD7406 /* AsstisTouch2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				041997121D9B8E5600FD7406 /* AsstisTouch2UITests.swift */,
+				041997141D9B8E5600FD7406 /* Info.plist */,
+			);
+			path = AsstisTouch2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041996EE1D9B8E5500FD7406 /* AsstisTouch2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041997171D9B8E5600FD7406 /* Build configuration list for PBXNativeTarget "AsstisTouch2" */;
+			buildPhases = (
+				041996EB1D9B8E5500FD7406 /* Sources */,
+				041996EC1D9B8E5500FD7406 /* Frameworks */,
+				041996ED1D9B8E5500FD7406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsstisTouch2;
+			productName = AsstisTouch2;
+			productReference = 041996EF1D9B8E5500FD7406 /* AsstisTouch2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041997021D9B8E5600FD7406 /* AsstisTouch2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419971A1D9B8E5600FD7406 /* Build configuration list for PBXNativeTarget "AsstisTouch2Tests" */;
+			buildPhases = (
+				041996FF1D9B8E5600FD7406 /* Sources */,
+				041997001D9B8E5600FD7406 /* Frameworks */,
+				041997011D9B8E5600FD7406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041997051D9B8E5600FD7406 /* PBXTargetDependency */,
+			);
+			name = AsstisTouch2Tests;
+			productName = AsstisTouch2Tests;
+			productReference = 041997031D9B8E5600FD7406 /* AsstisTouch2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0419970D1D9B8E5600FD7406 /* AsstisTouch2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419971D1D9B8E5600FD7406 /* Build configuration list for PBXNativeTarget "AsstisTouch2UITests" */;
+			buildPhases = (
+				0419970A1D9B8E5600FD7406 /* Sources */,
+				0419970B1D9B8E5600FD7406 /* Frameworks */,
+				0419970C1D9B8E5600FD7406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041997101D9B8E5600FD7406 /* PBXTargetDependency */,
+			);
+			name = AsstisTouch2UITests;
+			productName = AsstisTouch2UITests;
+			productReference = 0419970E1D9B8E5600FD7406 /* AsstisTouch2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041996E71D9B8E5400FD7406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "南京麦伦思";
+				TargetAttributes = {
+					041996EE1D9B8E5500FD7406 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6EU8FQ4RFQ;
+						LastSwiftMigration = 0800;
+					};
+					041997021D9B8E5600FD7406 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 041996EE1D9B8E5500FD7406;
+					};
+					0419970D1D9B8E5600FD7406 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 041996EE1D9B8E5500FD7406;
+					};
+				};
+			};
+			buildConfigurationList = 041996EA1D9B8E5400FD7406 /* Build configuration list for PBXProject "AsstisTouch2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041996E61D9B8E5400FD7406;
+			productRefGroup = 041996F01D9B8E5500FD7406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041996EE1D9B8E5500FD7406 /* AsstisTouch2 */,
+				041997021D9B8E5600FD7406 /* AsstisTouch2Tests */,
+				0419970D1D9B8E5600FD7406 /* AsstisTouch2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041996ED1D9B8E5500FD7406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041996FD1D9B8E5600FD7406 /* LaunchScreen.storyboard in Resources */,
+				041996FA1D9B8E5600FD7406 /* Assets.xcassets in Resources */,
+				041996F81D9B8E5500FD7406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041997011D9B8E5600FD7406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419970C1D9B8E5600FD7406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041996EB1D9B8E5500FD7406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04384BE21D9B8F2400D16E56 /* DebugExt.swift in Sources */,
+				041996F51D9B8E5500FD7406 /* ViewController.swift in Sources */,
+				041996F31D9B8E5500FD7406 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041996FF1D9B8E5600FD7406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041997081D9B8E5600FD7406 /* AsstisTouch2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419970A1D9B8E5600FD7406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041997131D9B8E5600FD7406 /* AsstisTouch2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041997051D9B8E5600FD7406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041996EE1D9B8E5500FD7406 /* AsstisTouch2 */;
+			targetProxy = 041997041D9B8E5600FD7406 /* PBXContainerItemProxy */;
+		};
+		041997101D9B8E5600FD7406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041996EE1D9B8E5500FD7406 /* AsstisTouch2 */;
+			targetProxy = 0419970F1D9B8E5600FD7406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041996F61D9B8E5500FD7406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041996F71D9B8E5500FD7406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041996FB1D9B8E5600FD7406 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041996FC1D9B8E5600FD7406 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041997151D9B8E5600FD7406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041997161D9B8E5600FD7406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041997181D9B8E5600FD7406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6EU8FQ4RFQ;
+				INFOPLIST_FILE = AsstisTouch2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milanosoft.NShop.AsstisTouch2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		041997191D9B8E5600FD7406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6EU8FQ4RFQ;
+				INFOPLIST_FILE = AsstisTouch2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milanosoft.NShop.AsstisTouch2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		0419971B1D9B8E5600FD7406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsstisTouch2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milanosoft.NShop.AsstisTouch2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsstisTouch2.app/AsstisTouch2";
+			};
+			name = Debug;
+		};
+		0419971C1D9B8E5600FD7406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsstisTouch2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milanosoft.NShop.AsstisTouch2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsstisTouch2.app/AsstisTouch2";
+			};
+			name = Release;
+		};
+		0419971E1D9B8E5600FD7406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AsstisTouch2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milanosoft.NShop.AsstisTouch2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = AsstisTouch2;
+			};
+			name = Debug;
+		};
+		0419971F1D9B8E5600FD7406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AsstisTouch2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milanosoft.NShop.AsstisTouch2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = AsstisTouch2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041996EA1D9B8E5400FD7406 /* Build configuration list for PBXProject "AsstisTouch2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041997151D9B8E5600FD7406 /* Debug */,
+				041997161D9B8E5600FD7406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041997171D9B8E5600FD7406 /* Build configuration list for PBXNativeTarget "AsstisTouch2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041997181D9B8E5600FD7406 /* Debug */,
+				041997191D9B8E5600FD7406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0419971A1D9B8E5600FD7406 /* Build configuration list for PBXNativeTarget "AsstisTouch2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419971B1D9B8E5600FD7406 /* Debug */,
+				0419971C1D9B8E5600FD7406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0419971D1D9B8E5600FD7406 /* Build configuration list for PBXNativeTarget "AsstisTouch2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419971E1D9B8E5600FD7406 /* Debug */,
+				0419971F1D9B8E5600FD7406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041996E71D9B8E5400FD7406 /* Project object */;
+}
