@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.performSelector(#selector(showDeBugExt), withObject: nil, afterDelay: 3)
         return true
     }
-    
 
 }
 

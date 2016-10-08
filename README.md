@@ -16,7 +16,7 @@
 # MyProject
 ![Demo GIF Animation](https://github.com/DKJone/AsstisTouch/blob/master/ex2.gif?raw=true "Demo GIF Animation")
 ---
-在项目中使用时只需啊哟将DebugExt.swift拖入项目中并在appdelegarte中添加以下代码即可
+在项目中使用时只需要将DebugExt.swift拖入项目中并在appdelegarte中添加以下代码即可
 
 ```swift
     var assistiveTouch: AssistiveTouch!
