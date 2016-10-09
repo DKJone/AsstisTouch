@@ -219,7 +219,7 @@ class AssistiveTouch: UIWindow {
         case 7:
             bgView.backgroundColor = UIColor.clear
             layerView.removeFromSuperview()
-
+            caLayer.removeFromSuperlayer()
         default:
             break
         }
@@ -228,8 +228,9 @@ class AssistiveTouch: UIWindow {
 
     // 烟花动画层
     let layerView = UIView(frame: UIScreen.main.bounds)
+    let caLayer: CAEmitterLayer = CAEmitterLayer()
     func showAnimation() {
-        let caLayer: CAEmitterLayer = CAEmitterLayer()
+
         // 发射源
         caLayer.emitterPosition = CGPoint(x: ScreenWidth / 2, y: ScreenHeight - 50)
         caLayer.emitterSize = CGSize(width: 50, height: 0)
