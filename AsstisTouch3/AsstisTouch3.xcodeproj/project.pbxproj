@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042BFD2B1DA9D43F00298770 /* FFRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 042BFD291DA9D43F00298770 /* FFRing.png */; };
+		042BFD2C1DA9D43F00298770 /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 042BFD2A1DA9D43F00298770 /* FFTspark.png */; };
 		04FE2F6D1DA8E2B6007EB6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2F6C1DA8E2B6007EB6D7 /* AppDelegate.swift */; };
 		04FE2F6F1DA8E2B6007EB6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2F6E1DA8E2B6007EB6D7 /* ViewController.swift */; };
 		04FE2F721DA8E2B6007EB6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE2F701DA8E2B6007EB6D7 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		04FE2F771DA8E2B6007EB6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE2F751DA8E2B6007EB6D7 /* LaunchScreen.storyboard */; };
 		04FE2F821DA8E2B6007EB6D7 /* AsstisTouch3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2F811DA8E2B6007EB6D7 /* AsstisTouch3Tests.swift */; };
 		04FE2F8D1DA8E2B6007EB6D7 /* AsstisTouch3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2F8C1DA8E2B6007EB6D7 /* AsstisTouch3UITests.swift */; };
+		04FE2F9B1DA8EFF0007EB6D7 /* DebugExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2F9A1DA8EFF0007EB6D7 /* DebugExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042BFD291DA9D43F00298770 /* FFRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFRing.png; sourceTree = "<group>"; };
+		042BFD2A1DA9D43F00298770 /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
 		04FE2F691DA8E2B6007EB6D7 /* AsstisTouch3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsstisTouch3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE2F6C1DA8E2B6007EB6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FE2F6E1DA8E2B6007EB6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		04FE2F881DA8E2B6007EB6D7 /* AsstisTouch3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsstisTouch3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE2F8C1DA8E2B6007EB6D7 /* AsstisTouch3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsstisTouch3UITests.swift; sourceTree = "<group>"; };
 		04FE2F8E1DA8E2B6007EB6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FE2F9A1DA8EFF0007EB6D7 /* DebugExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		04FE2F6B1DA8E2B6007EB6D7 /* AsstisTouch3 */ = {
 			isa = PBXGroup;
 			children = (
+				042BFD291DA9D43F00298770 /* FFRing.png */,
+				042BFD2A1DA9D43F00298770 /* FFTspark.png */,
+				04FE2F9A1DA8EFF0007EB6D7 /* DebugExt.swift */,
 				04FE2F6C1DA8E2B6007EB6D7 /* AppDelegate.swift */,
 				04FE2F6E1DA8E2B6007EB6D7 /* ViewController.swift */,
 				04FE2F701DA8E2B6007EB6D7 /* Main.storyboard */,
@@ -234,7 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FE2F771DA8E2B6007EB6D7 /* LaunchScreen.storyboard in Resources */,
+				042BFD2B1DA9D43F00298770 /* FFRing.png in Resources */,
 				04FE2F741DA8E2B6007EB6D7 /* Assets.xcassets in Resources */,
+				042BFD2C1DA9D43F00298770 /* FFTspark.png in Resources */,
 				04FE2F721DA8E2B6007EB6D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FE2F9B1DA8EFF0007EB6D7 /* DebugExt.swift in Sources */,
 				04FE2F6F1DA8E2B6007EB6D7 /* ViewController.swift in Sources */,
 				04FE2F6D1DA8E2B6007EB6D7 /* AppDelegate.swift in Sources */,
 			);
@@ -508,6 +520,7 @@
 				04FE2F931DA8E2B6007EB6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FE2F941DA8E2B6007EB6D7 /* Build configuration list for PBXNativeTarget "AsstisTouch3Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +529,7 @@
 				04FE2F961DA8E2B6007EB6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FE2F971DA8E2B6007EB6D7 /* Build configuration list for PBXNativeTarget "AsstisTouch3UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +538,7 @@
 				04FE2F991DA8E2B6007EB6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
